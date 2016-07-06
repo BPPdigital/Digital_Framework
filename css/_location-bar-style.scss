@@ -1,0 +1,142 @@
+.location-bar {
+    background: #9b9b9b;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px; /* FRAMEWORK PURPOSES ONLY */
+    
+    p {
+        line-height: 1.5;
+        padding: 0 150px;
+        margin: 0 auto;
+        display: inline-block;
+        text-transform: uppercase;
+        
+        &:before {
+            padding-right: 5px;
+        }
+    }
+    
+    .location-bar-menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        align-items: baseline;
+        
+        a {
+            border-left: 1px solid #fff;
+            height: 100%;
+            align-self: center;
+            padding: 2px;
+            cursor: pointer;
+         
+            &:before {
+                font-size: 24px;
+                line-height: 0.9;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.location-bar:hover {
+    
+    p {
+        margin: 12px auto;
+    }
+    
+    .location-bar-menu {
+        
+        a {
+            padding: 0.8em;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .location-bar {
+        display: flex;
+        
+        p {
+            padding: 0;
+            margin: 0 15px;
+            align-self: center;
+        }
+        
+        .location-bar-menu {
+            position: relative;
+            align-content: space-between;
+            padding: 5px 0;
+            margin-left: auto;
+            align-self: center;
+        
+            a {
+                flex-grow: 1;
+                border-left: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .location-bar:hover {
+
+        p {
+            padding: 0;
+            margin: 0 15px;
+        }
+
+        .location-bar-menu {
+
+            a {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+.mobile .location-bar {
+    display: flex;
+        
+    p {
+        padding: 0;
+        margin: 0 15px;
+        align-self: center;
+    }
+
+    .location-bar-menu {
+        position: relative;
+        align-content: space-between;
+        padding: 5px 0;
+        margin-left: auto;
+        align-self: center;
+        
+        a {
+            flex-grow: 1;
+            border-left: 0;
+            padding: 0;
+        }
+    }
+}
+
+.mobile .location-bar:hover {
+
+    p {
+        padding: 0;
+        margin: 0 15px;
+    }
+
+    .location-bar-menu {
+
+        a {
+            padding: 0px;
+        }
+    }
+}
+
+.location-bar p, .location-bar-menu a, .location-bar:hover p, .location-bar:hover .location-bar-menu a {
+    -webkit-transition: padding ease-out 0.5s, margin ease-out 0.5s;
+    -moz-transition: padding ease-out 0.5s, margin ease-out 0.5s;
+    -o-transition: padding ease-out 0.5s, margin ease-out 0.5s;
+    transition: padding ease-out 0.5s, margin ease-out 0.5s;
+}

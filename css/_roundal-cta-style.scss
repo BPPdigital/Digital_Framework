@@ -1,0 +1,28 @@
+.roundal-cta {
+    font-size: 42px;
+    background: #9b9b9b;
+    border-radius: 50px;
+    height: 49px;
+    width: 49px;
+    display: block;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-bottom: 0;
+    margin-bottom: 60px; /* GUIDELINE PURPOSES ONLY */
+    
+    &:before {
+        content: "\f1ab";
+        font-family: BPPIcons;
+        margin: 0;
+        position: absolute;
+        left: 9px;
+        top: 25px;
+        font-size: 39px;
+        padding: 0;
+        line-height: 0;
+        color: #fff;
+        text-decoration: none;
+    }
+}

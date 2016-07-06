@@ -1,0 +1,224 @@
+.code-content footer {
+    background: #000;
+    color: #fff;
+    padding: 0 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+    
+    p {
+        color: #fff;
+        font-size: 15px;
+        line-height: 1;
+        flex-grow: 6;
+        padding: 0 20px;
+    }
+        
+    a {
+        color:#fff;
+        border-left: 1px solid #fff;
+        cursor: pointer;
+        flex-grow: 1;
+        width: 50px;
+        display: block;
+    }
+    
+    a.bppicon {
+        padding: 9px 0;
+    }
+     
+    a:before {
+        font-size:32px;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #fff;
+        background: #3ab4b4;
+    }
+    
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        flex-wrap: nowrap;
+        
+        .bppicon:before {
+            padding-left: 8px;
+            padding-right: 0px;
+        }
+    
+        .bppicon.block-icon:before {
+            font-size: 22px;
+            padding-left: 0px;
+        }
+    
+        .navigation-tip {
+            margin: 0 0 0 auto;
+            padding: 7px 10px;
+            font-size: 10px;
+        }
+        
+        .navigation-tip.footOpen:before {
+            content: '\f18c';
+        }
+    }
+    
+    nav {
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        left: 0;
+        
+        a {
+            color: #BBBCB4;
+            padding: 15px 0 15px 15px;
+            width: 100%;
+            display: block;
+            font-size: 12px;
+        }
+                
+        a:hover {
+            background: #444;
+        }
+        
+        ul {
+            display: none;
+            flex-direction: row;
+            box-sizing: border-box;
+            width: 100%;
+            position: relative;
+            
+            
+                
+            li:first-child {
+                border-left: 0;
+            }
+            
+            
+            li {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                min-width: 25%;
+                padding-bottom: 0;
+                border-top: 0;
+                border-left: 1px solid #666;
+                position: relative;
+                
+                a:hover {
+                    background: #444;
+                }
+                
+                ul {
+                    display: none;
+                    flex-direction: column;
+                    width: 100%;
+                    max-width: 100%;
+                    border-top: 1px solid #666;
+                    
+                    li {
+                        width: 100%;
+                        max-width: 100%;
+                        border-left: 0;
+                        border-bottom: 1px solid #666;
+                    }
+                    
+                    li:after {
+                        content: ''
+                    }
+                }
+                
+            }
+            
+            li:before {
+                content: '';
+                padding: 0;
+            }
+            
+            a {
+                flex-grow: initial;
+                border-left: 0;
+            }
+        }
+        
+        ul li.sub-nav:after {
+                content: "\f18b";
+                font-family: BPPIcons;
+                position: absolute;
+                right: 10px;
+                top: 13px;
+        }
+        
+        ul li.sub-nav.footOpen:after {
+            content:'\f18c';
+        }
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .code-content footer {
+        a {
+            border-left: none;
+        }
+        
+        p {
+            text-align: left;
+            width: 100%;
+        }
+        
+        .footer-menu {
+            flex-wrap: wrap;
+            flex-grow: 1;
+        }
+    }
+    
+    .code-content footer nav ul {
+        flex-direction: column;
+        
+        li {
+            max-width: 100%;
+            
+            ul li a {
+                text-indent: 15px;
+            }
+        }
+    }
+}
+
+.mobile footer {
+    a {
+        border-left: none;
+    }
+        
+    p {
+        text-align: left;
+        width: 100%;
+    }
+
+    .footer-menu {
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+}
+
+.mobile footer nav ul {
+    flex-direction: column;
+        
+    li {
+        max-width: 100%;
+    
+        ul li a {
+            text-indent: 15px;
+        }
+    }
+}

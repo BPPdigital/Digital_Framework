@@ -1,0 +1,151 @@
+h1 {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 1.4;
+    color: #4a4a4a;
+    margin-bottom: 35px;
+}
+
+p + h1, ul + h1 {
+    margin-top: 35px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin-bottom: 22px;
+}
+
+p + h2, ul + h2 {
+    margin-top: 35px;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+p + h3, ul + h3 {
+    margin-top: 35px;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin-bottom: 17px;
+}
+
+p + h4, ul + h4 {
+    margin-top: 8px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 1.9;
+    color: #4a4a4a;
+
+    a {
+        border-bottom: 1px solid #4a4a4a;
+
+        &:hover {
+            border-bottom: 0;
+        }
+    }
+}
+
+a {
+    color: #4a4a4a;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+ul {
+    margin: 17px 0;
+}
+
+.code-content ul li:before {
+	content: "\25cb";
+	font-family: BPPIcons;
+    padding-right: 5px;
+}
+
+section ul {
+    padding-left: 0;
+}
+
+section ul li {
+    background: none;
+    padding-left: 0;
+    font-size: 17px;
+}
+
+ul.bppicon.icon-task:before {
+    content: ''
+}
+
+ul.bppicon.icon-task li:before {
+	content: "\f1df";
+	font-family: BPPIcons;
+    padding-right: 5px;
+}
+
+ul.bppicon.icon-task {
+    padding-left: 0;
+}
+
+ul.bppicon.icon-task li {
+    background: none;
+    padding-left: 0;
+    font-size: 17px;
+}
+
+.accordion {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn {
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.btn .bppicon {
+    line-height: 1.9;
+}
+
+.footer-button {
+    font-size: 12px;
+    line-height: 2.4;
+}
+
+.navigation-tip {
+    font-size: 10px;
+    text-transform: uppercase;
+    display: table-cell;
+    border-bottom-width: 0;
+    min-width: 50px;
+}
+
+.navigation-tip:before {
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+.button.bppicon:before {
+    padding-right: 5px;
+}

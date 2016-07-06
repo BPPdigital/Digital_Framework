@@ -1,0 +1,542 @@
+@font-face {
+	font-family: BPPIcons;
+	src: url(../../fonts/BPPIcons_W_Rg.eot);
+	src: url(../../fonts/BPPIcons_W_Rg.eot) format("embedded-opentype"), url(../../fonts/BPPIcons_W_Rg.woff2) format("woff2"), url(../../fonts/BPPIcons_W_Rg.woff) format("woff"), url(../../fonts/BPPIcons_Rg.ttf) format("truetype")
+}
+.bppicon {
+	line-height: normal
+}
+.bppicon:before {
+    padding-right:15px;
+}
+.bppicon.block-icon:before {
+    display: block;
+}
+.bppicon.icon-daytime:before {
+	content: "\f185";
+	font-family: BPPIcons;
+}
+.bppicon.icon-evening:before {
+	content: "\f186";
+	font-family: BPPIcons;
+}
+.bppicon.icon-weekend:before {
+	content: "\f0f4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-facebook:before {
+	content: "\f187";
+	font-family: BPPIcons;
+}
+.bppicon.icon-twitter:before {
+	content: "\f188";
+	font-family: BPPIcons;
+}
+.bppicon.icon-linkedIn:before {
+	content: "\f189";
+	font-family: BPPIcons;
+}
+.bppicon.icon-youtube:before {
+	content: "\f18a";
+	font-family: BPPIcons;
+}
+.bppicon.icon-arrowNorth:before {
+	content: "\2191";
+	font-family: BPPIcons;
+}
+.bppicon.icon-arrowSouth:before {
+	content: "\2193";
+	font-family: BPPIcons;
+}
+.bppicon.icon-arrowEast:before {
+	content: "\2192";
+	font-family: BPPIcons;
+}
+.bppicon.icon-arrowWest:before {
+	content: "\2190";
+	font-family: BPPIcons;
+}
+.bppicon.icon-caretNorth:before {
+	content: "\f18b";
+	font-family: BPPIcons;
+}
+.bppicon.icon-caretSouth:before {
+	content: "\f18c";
+	font-family: BPPIcons;
+}
+.bppicon.icon-caretEast:before {
+	content: "\f18d";
+	font-family: BPPIcons;
+}
+.bppicon.icon-caretWest:before {
+	content: "\f18e";
+	font-family: BPPIcons;
+}
+.bppicon.icon-caretNorthSouth:before {
+	content: "\f18f";
+	font-family: BPPIcons;
+}
+.bppicon.icon-lionhead:before {
+	content: "\f190";
+	font-family: BPPIcons;
+}
+.bppicon.icon-benchmark:before {
+	content: "\f191";
+	font-family: BPPIcons;
+}
+.bppicon.icon-enhancedTeaching:before {
+	content: "\f192";
+	font-family: BPPIcons;
+}
+.bppicon.icon-enhancedLearningActivites:before {
+	content: "\f193";
+	font-family: BPPIcons;
+}
+.bppicon.icon-enhancedSupport:before {
+	content: "\f194";
+	font-family: BPPIcons;
+}
+.bppicon.icon-enhancedAssessment:before {
+	content: "\f195";
+	font-family: BPPIcons;
+}
+.bppicon.icon-enhancedOnlinePlatform:before {
+	content: "\f196";
+	font-family: BPPIcons;
+}
+.bppicon.icon-faceToFace:before {
+	content: "\f197";
+	font-family: BPPIcons;
+}
+.bppicon.icon-onlineLive:before {
+	content: "\f198";
+	font-family: BPPIcons;
+}
+.bppicon.icon-onlineAnytime:before {
+	content: "\f199";
+	font-family: BPPIcons;
+}
+.bppicon.icon-pdf:before {
+	content: "\f19a";
+	font-family: BPPIcons;
+}
+.bppicon.icon-word:before {
+	content: "\f19b";
+	font-family: BPPIcons;
+}
+.bppicon.icon-excel:before {
+	content: "\f19c";
+	font-family: BPPIcons;
+}
+.bppicon.icon-powerPoint:before {
+	content: "\f19d";
+	font-family: BPPIcons;
+}
+.bppicon.icon-text:before {
+	content: "\f19e";
+	font-family: BPPIcons;
+}
+.bppicon.icon-photo:before {
+	content: "\f19f";
+	font-family: BPPIcons;
+}
+.bppicon.icon-video:before {
+	content: "\f1a0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-begin:before {
+	content: "\f1a1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-end:before {
+	content: "\f1a2";
+	font-family: BPPIcons;
+}
+.bppicon.icon-email:before {
+	content: "\2709";
+	font-family: BPPIcons;
+}
+.bppicon.icon-starHollow:before {
+	content: "\2606";
+	font-family: BPPIcons;
+}
+.bppicon.icon-starHalf:before {
+	content: "\f1a3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-starFull:before {
+	content: "\2605";
+	font-family: BPPIcons;
+}
+.bppicon.icon-edit:before {
+	content: "\270e";
+	font-family: BPPIcons;
+}
+.bppicon.icon-cancel:before {
+	content: "\f1a4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-warning:before {
+	content: "\f1a5";
+	font-family: BPPIcons;
+}
+.bppicon.icon-warningNone:before {
+	content: "\26a0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-calendarDate:before {
+	content: "\f1a6";
+	font-family: BPPIcons;
+}
+.bppicon.icon-calendarEmpty:before {
+	content: "\f1a7";
+	font-family: BPPIcons;
+}
+.bppicon.icon-pathway:before {
+	content: "\f1a8";
+	font-family: BPPIcons;
+}
+.bppicon.icon-settings:before {
+	content: "\2699";
+	font-family: BPPIcons;
+}
+.bppicon.icon-creditCard:before {
+	content: "\f1a9";
+	font-family: BPPIcons;
+}
+.bppicon.icon-dashboard:before {
+	content: "\f1aa";
+	font-family: BPPIcons;
+}
+.bppicon.icon-add:before {
+	content: "\f1ab";
+	font-family: BPPIcons;
+}
+.bppicon.icon-remove:before {
+	content: "\f1ac";
+	font-family: BPPIcons;
+}
+.bppicon.icon-refresh:before {
+	content: "\f1ad";
+	font-family: BPPIcons;
+}
+.bppicon.icon-menuHamburger:before {
+	content: "\2630";
+	font-family: BPPIcons;
+}
+.bppicon.icon-search:before {
+	content: "\f1ae";
+	font-family: BPPIcons;
+}
+.bppicon.icon-badge:before {
+	content: "\f1af";
+	font-family: BPPIcons;
+}
+.bppicon.icon-tags:before {
+	content: "\f1b0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-location:before {
+	content: "\2316";
+	font-family: BPPIcons;
+}
+.bppicon.icon-alerts:before {
+	content: "\f1b1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-book:before {
+	content: "\f1b2";
+	font-family: BPPIcons;
+}
+.bppicon.icon-paper:before {
+	content: "\f1b3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-send:before {
+	content: "\f1b4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-user:before {
+	content: "\f1b5";
+	font-family: BPPIcons;
+}
+.bppicon.icon-users:before {
+	content: "\f1b6";
+	font-family: BPPIcons;
+}
+.bppicon.icon-clock:before {
+	content: "\f1b7";
+	font-family: BPPIcons;
+}
+.bppicon.icon-timer:before {
+	content: "\23f1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-trash:before {
+	content: "\f1b8";
+	font-family: BPPIcons;
+}
+.bppicon.icon-locked:before {
+	content: "\f1b9";
+	font-family: BPPIcons;
+}
+.bppicon.icon-unlocked:before {
+	content: "\f1ba";
+	font-family: BPPIcons;
+}
+.bppicon.icon-quiz:before {
+	content: "\f1bb";
+	font-family: BPPIcons;
+}
+.bppicon.icon-phone:before {
+	content: "\f1bc";
+	font-family: BPPIcons;
+}
+.bppicon.icon-studyPlanner:before {
+	content: "\f1bd";
+	font-family: BPPIcons;
+}
+.bppicon.icon-oneToOne:before {
+	content: "\f1be";
+	font-family: BPPIcons;
+}
+.bppicon.icon-chat:before {
+	content: "\f1bf";
+	font-family: BPPIcons;
+}
+.bppicon.icon-forum:before {
+	content: "\f1c0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-trafficLightTop:before {
+	content: "\f1c1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-trafficLightCentre:before {
+	content: "\f1c2";
+	font-family: BPPIcons;
+}
+.bppicon.icon-trafficLightBottom:before {
+	content: "\f1c3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-idCard:before {
+	content: "\f1c4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-mobile:before {
+	content: "\f1c5";
+	font-family: BPPIcons;
+}
+.bppicon.icon-laptop:before {
+	content: "\f1c6";
+	font-family: BPPIcons;
+}
+.bppicon.icon-desktop:before {
+	content: "\f1c7";
+	font-family: BPPIcons;
+}
+.bppicon.icon-tablet:before {
+	content: "\f1c8";
+	font-family: BPPIcons;
+}
+.bppicon.icon-tutor:before {
+	content: "\f1c9";
+	font-family: BPPIcons;
+}
+.bppicon.icon-modules:before {
+	content: "\f1ca";
+	font-family: BPPIcons;
+}
+.bppicon.icon-proBono:before {
+	content: "\f1cb";
+	font-family: BPPIcons;
+}
+.bppicon.icon-law:before {
+	content: "\2696";
+	font-family: BPPIcons;
+}
+.bppicon.icon-apprentice:before {
+	content: "\f1cc";
+	font-family: BPPIcons;
+}
+.bppicon.icon-magic:before {
+	content: "\f1cd";
+	font-family: BPPIcons;
+}
+.bppicon.icon-elephant:before {
+	content: "\f1ce";
+	font-family: BPPIcons;
+}
+.bppicon.icon-circle:before {
+	content: "\25cb";
+	font-family: BPPIcons;
+}
+.bppicon.icon-triangle:before {
+	content: "\25b3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-square:before {
+	content: "\25a1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-cross:before {
+	content: "\2795";
+	font-family: BPPIcons;
+}
+.bppicon.icon-heartHollow:before {
+	content: "\2661";
+	font-family: BPPIcons;
+}
+.bppicon.icon-heartFull:before {
+	content: "\2665";
+	font-family: BPPIcons;
+}
+.bppicon.icon-focusSession:before {
+	content: "\f1cf";
+	font-family: BPPIcons;
+}
+.bppicon.icon-loading:before {
+	content: "\f1d0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-shoppingBasket:before {
+	content: "\f1d1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-shoppingBasketActive:before {
+	content: "\f1d2";
+	font-family: BPPIcons;
+}
+.bppicon.icon-ellipses:before {
+	content: "\2026";
+	font-family: BPPIcons;
+}
+.bppicon.icon-signpost:before {
+	content: "\f1d3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-help:before {
+	content: "\f1d4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-map:before {
+	content: "\26ef";
+	font-family: BPPIcons;
+}
+.bppicon.icon-download:before {
+	content: "\f1d5";
+	font-family: BPPIcons;
+}
+.bppicon.icon-eyeOpen:before {
+	content: "\f1d6";
+	font-family: BPPIcons;
+}
+.bppicon.icon-eyeClosed:before {
+	content: "\f1d7";
+	font-family: BPPIcons;
+}
+.bppicon.icon-history:before {
+	content: "\f1d8";
+	font-family: BPPIcons;
+}
+.bppicon.icon-archive:before {
+	content: "\f1d9";
+	font-family: BPPIcons;
+}
+.bppicon.icon-key:before {
+	content: "\f1da";
+	font-family: BPPIcons;
+}
+.bppicon.icon-info:before {
+	content: "\2139";
+	font-family: BPPIcons;
+}
+.bppicon.icon-globeAsiaFocus:before {
+	content: "\f1db";
+	font-family: BPPIcons;
+}
+.bppicon.icon-globeAfricaFocus:before {
+	content: "\f1dc";
+	font-family: BPPIcons;
+}
+.bppicon.icon-globeAmericasFocus:before {
+	content: "\f1dd";
+	font-family: BPPIcons;
+}
+.bppicon.icon-globeEuropeFocus:before {
+	content: "\f1de";
+	font-family: BPPIcons;
+}
+.bppicon.icon-task:before {
+	content: "\f1df";
+	font-family: BPPIcons;
+}
+.bppicon.icon-save:before {
+	content: "\f1e0";
+	font-family: BPPIcons;
+}
+.bppicon.icon-ladder:before {
+	content: "\f1e1";
+	font-family: BPPIcons;
+}
+.bppicon.icon-trophy:before {
+	content: "\f1e2";
+	font-family: BPPIcons;
+}
+.bppicon.icon-messages:before {
+	content: "\f1e3";
+	font-family: BPPIcons;
+}
+.bppicon.icon-pieChart:before {
+	content: "\f1e4";
+	font-family: BPPIcons;
+}
+.bppicon.icon-graph:before {
+	content: "\f1e5";
+	font-family: BPPIcons;
+}
+.bppicon.icon-thermometer:before {
+	content: "\f1e6";
+	font-family: BPPIcons;
+}
+.bppicon.icon-city:before {
+	content: "\f1e7";
+	font-family: BPPIcons;
+}
+.bppicon.icon-building:before {
+	content: "\f1e8";
+	font-family: BPPIcons;
+}
+.bppicon.icon-houseHome:before {
+	content: "\2302";
+	font-family: BPPIcons;
+}
+.bppicon.icon-stack:before {
+	content: "\f1e9";
+	font-family: BPPIcons;
+}
+.bppicon.icon-calculator:before {
+	content: "\f1ea";
+	font-family: BPPIcons;
+}
+.bppicon.icon-filter:before {
+	content: "\f1eb";
+	font-family: BPPIcons;
+}
+.bppicon.icon-ACCA:before {
+	content: "\f1ec";
+	font-family: BPPIcons;
+}
+.bppicon.icon-CIMA:before {
+	content: "\f1ed";
+	font-family: BPPIcons;
+}
+.bppicon.icon-more:before {
+	content: "\2795";
+	font-family: BPPIcons;
+}   
+.bppicon.icon-more:hover:before {
+   content: "\f1ab";
+   font-family: BPPIcons;
+}

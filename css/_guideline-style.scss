@@ -1,0 +1,93 @@
+body {
+    background: #F6F7F8;
+}
+
+h2[data-type="section-heading"] {
+    width: 100%;
+    border-bottom: 1px solid #888;
+    color: #444;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 100px;
+}
+
+pre.prettyprint {
+    display: none;
+    margin: 0 0 40px 0!important;
+    padding: 0px 15px!important;
+    line-height: 1!important;
+    border-radius: 0!important;
+    border: 0!important;
+    width: 100%!important;
+    
+    span:first-child {
+        padding-top: 15px;
+        display: inline-block;
+    }
+    
+    span:last-child {
+        padding-bottom: 15px;
+        display: inline-block;
+    }
+}
+
+.view {
+    display: block;
+}
+
+pre + * {
+    margin-top: 60px;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    margin-top: -50px;
+    padding-top: 50px;
+    z-index: 1;
+}
+
+.code-content {
+    border:2px solid #ddd;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.code-content:before {
+    content:'\2190';
+    position: absolute;
+    right: -35px;
+    font-size: 35px;
+    top: 35vh;
+}
+
+.brand .bppicon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.brand .bppicon.icon-desktop:before, .brand .bppicon.icon-mobile:before, .brand .bppicon.icon-tablet:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.size-selectors {
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+.font-adjust:before {
+    font-size: 24px;
+}

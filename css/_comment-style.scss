@@ -1,0 +1,81 @@
+.card.comment-card {
+    position: relative;
+    max-width: 80%;
+    
+    .comment {
+        padding: 5px 50px 0 60px;
+        
+        p {
+            line-height: 1.47;
+        }
+        
+        blockquote {
+            font-size: 12px;
+            color: #9f9f9f;
+            border-left: 1px solid #9f9f9f;
+            
+            .key-details {
+                
+                ul {
+                    margin-bottom: 0;
+                    
+                    li {
+                        font-size: 12px
+                    }
+                }
+            }
+        }
+    }
+        
+    .navigation-tip {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        border: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .card.comment-card {
+        overflow: hidden;
+        max-width: 100%;
+        
+        .comment {
+            padding: 5px 0px 0 0px;
+        
+            blockquote {
+
+                .key-details {
+                    margin-top: 17px;
+                }
+            }
+        
+            .navigation-tip {
+                position: relative;
+                float: right;
+            }
+        }
+    }
+}
+
+
+.mobile .card.comment-card {
+    overflow: hidden;
+    max-width: 100%;
+
+    .comment {
+        padding: 5px 0px 0 0px;
+        
+        blockquote {
+            
+            .key-details {
+                margin-top: 17px;
+            }
+        }
+    }
+
+    .navigation-tip {
+        position: relative;
+        float: right;
+    }
+}
