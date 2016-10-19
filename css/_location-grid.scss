@@ -1,0 +1,147 @@
+.location-grid, .location-column{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.location-column{
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.location-container{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  flex: 1 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+    display: flex;
+}
+
+.location-container.quarter {
+    flex-basis: 25%;
+}
+
+.location-container.half {
+    flex-basis: 45.5%;
+}
+
+a.location-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 25px 25px 0 0;
+    min-width: 255px;
+    min-height: 255px;
+    border-bottom: 0;
+}
+
+.location-container .location-content {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.location-content:before, .location-content:after {
+    position: absolute;
+    top: initial;
+    left: initial;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    height: 1px;
+    display: block;
+    width: 0%;
+    content: ' ';
+}
+
+.location-content:after {
+    top: 0;
+    left: 0;
+    right: initial;
+    bottom: initial;
+    content: ' ';
+}
+
+.location-container:hover > .location-content:before, .location-container:hover > .location-content:after {
+    width: 100%;
+    -webkit-transition: width 750ms;
+    -moz-transition: width 750ms;
+    -o-transition: width 750ms;
+    transition: width 750ms;
+}
+
+.location-content h3 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0;
+    color: #fff;
+    margin: 0;
+}
+
+.location-content p {
+    color: #fff;    
+    line-height: 1.5;
+    margin: 0;
+    font-size: 15px;
+}
+
+.location-grid {
+    min-height: 500px;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 60px /* Framework example only */
+}
+
+@media (max-width: 768px) {
+    .location-grid {
+        flex-direction: column;
+    }
+    
+    a.location-container {
+        margin: 10px 0;
+        min-width: 100%;
+        min-height: 100px;
+    }
+}
+
+.mobile {
+    
+    .location-grid {
+        flex-direction: column;
+    }
+    
+    a.location-container {
+        margin: 10px 0;
+        min-width: 100%;
+        min-height: 100px;
+    }
+}

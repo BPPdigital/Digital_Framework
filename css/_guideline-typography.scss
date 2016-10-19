@@ -57,20 +57,22 @@ p {
     color: #4a4a4a;
 
     a {
-        border-bottom: 1px solid #4a4a4a;
+        color: #00A7CE;
+        border-bottom: 1px solid #00A7CE;
 
         &:hover {
+            color: #995CA2;
             border-bottom: 0;
         }
     }
 }
 
 a {
-    color: #4a4a4a;
+    color: #00A7CE;
 
     &:hover {
         text-decoration: none;
-        color: #000;
+        color: #995CA2;
     }
 }
 
@@ -139,6 +141,7 @@ ul.bppicon.icon-task li {
     display: table-cell;
     border-bottom-width: 0;
     min-width: 50px;
+    color: #4a4a4a;
 }
 
 .navigation-tip:before {

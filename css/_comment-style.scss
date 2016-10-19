@@ -32,6 +32,13 @@
         bottom: 5px;
         right: 5px;
         border: 0;
+        background: transparent;
+        color: #4a4a4a;
+        
+        &:hover {
+            background: #995CA2;  
+            color: #fff;
+        }
     }
 }
 
