@@ -96,6 +96,10 @@ p + h2, p + blockquote, ul + h2, .responsive-iframe + h2, p + h3, ul + h3, .resp
     margin-top: 40px;
 }
 
+.no-pad {
+    padding: 0 !important;
+}
+
 small, .small {
     font-size: 11px;
 }

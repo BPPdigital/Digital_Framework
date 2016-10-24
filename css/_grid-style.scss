@@ -38,6 +38,67 @@
     }
 }
 
+.img-header-grid {
+    align-items: stretch;
+    
+    .img-header-grid-content {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    p {
+        flex-grow: initial;
+        font-size: 15px;
+        color: #757575;
+        line-height: 1.6;
+    }
+    
+    a {
+        margin-top: auto;
+    }
+
+    img {
+        width: 100%;
+        margin: 0;
+    }
+    
+    h3 {
+        font-weight: normal;
+        margin-bottom: 8px;
+        font-size: 17px;
+        color: #4a4a4a;
+    }
+    
+    p+h3 {
+        margin-top: 6px;
+    }
+    
+    .category, .new {
+        margin: 0;
+        color: #828282;
+    }
+    
+    .new {
+        margin-bottom: 5px;
+        color: #ff9b00;
+        
+        &.bppicon:before {
+            padding-right: 5px;
+        }
+    }
+    
+    .navigation-tip {
+        position: absolute;
+        width: 50px;
+        right: 0px;
+        text-decoration: none;
+        border: 0;
+    }
+    
+}
+
 .border-grid {
     align-items: baseline;
     
@@ -114,6 +175,19 @@
 	flex-direction: column;
 	background: #fff;
 	border: none;
+}
+
+.img-header-grid .col-xs-1, .img-header-grid .col-sm-1, .img-header-grid .col-md-1, .img-header-grid .col-lg-1, .img-header-grid .col-xs-2, .img-header-grid .col-sm-2, .img-header-grid .col-md-2, .img-header-grid .col-lg-2, .img-header-grid .col-xs-3, .img-header-grid .col-sm-3, .img-header-grid .col-md-3, .img-header-grid .col-lg-3, .img-header-grid .col-xs-4, .img-header-grid .col-sm-4, .img-header-grid .col-md-4, .img-header-grid .col-lg-4, .img-header-grid .col-xs-5, .img-header-grid .col-sm-5, .img-header-grid .col-md-5, .img-header-grid .col-lg-5, .img-header-grid .col-xs-6, .img-header-grid .col-sm-6, .img-header-grid .col-md-6, .img-header-grid .col-lg-6, .img-header-grid .col-xs-7, .img-header-grid .col-sm-7, .img-header-grid .col-md-7, .img-header-grid .col-lg-7, .img-header-grid .col-xs-8, .img-header-grid .col-sm-8, .img-header-grid .col-md-8, .img-header-grid .col-lg-8, .img-header-grid .col-xs-9, .img-header-grid .col-sm-9, .img-header-grid .col-md-9, .img-header-grid .col-lg-9, .img-header-grid .col-xs-10, .img-header-grid .col-sm-10, .img-header-grid .col-md-10, .img-header-grid .col-lg-10, .img-header-grid .col-xs-11, .img-header-grid .col-sm-11, .img-header-grid .col-md-11, .img-header-grid .col-lg-11, .img-header-grid .col-xs-12, .img-header-grid .col-sm-12, .img-header-grid .col-md-12, .img-header-grid .col-lg-12 {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border: none;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    -webkit-box-shadow: 2px 2px 5px 0 #ebebeb;
+    -moz-box-shadow: 2px 2px 5px 0 #ebebeb;
+    box-shadow: 2px 2px 5px 0 #ebebeb;
 }
 
 .grid .col-xs-12 {
