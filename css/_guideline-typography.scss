@@ -7,6 +7,12 @@ h1 {
     margin-bottom: 35px;
 }
 
+h1 span {
+    font-style: italic;
+    border-bottom: 1px solid #4a4a4a;
+    font-size: 28px;
+}
+
 p + h1, ul + h1 {
     margin-top: 35px;
 }
